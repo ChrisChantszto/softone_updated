@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "paths": {
+    "/textract/{bucket}/{key}": {
+      "name": "/textract/{bucket}/{key}",
+      "lambdaFunction": "textractapi",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "resourceName": "s3textractsaofdisdafs",
+  "bucketName": "textractsaofdisdafs",
+  "policyUUID": "2e60810b",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ",
+    "CREATE_AND_UPDATE",
+    "DELETE"
+  ],
+  "authAccess": [
+    "DELETE",
+    "READ",
+    "CREATE_AND_UPDATE"
+  ]
+}
