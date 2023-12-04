@@ -30,5 +30,26 @@
         "textractapi": {}
       }
     }
+  },
+  "textracts": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-textracts-textracts-100907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::221912315693:role/amplify-textracts-textracts-100907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::221912315693:role/amplify-textracts-textracts-100907-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-textracts-textracts-100907-deployment",
+      "UnauthRoleName": "amplify-textracts-textracts-100907-unauthRole",
+      "StackName": "amplify-textracts-textracts-100907",
+      "StackId": "arn:aws:cloudformation:us-east-1:221912315693:stack/amplify-textracts-textracts-100907/1d16c210-924a-11ee-8cad-0e4753f224a7",
+      "AmplifyAppId": "d1z9vwfwi3qqtw"
+    },
+    "categories": {
+      "auth": {
+        "textracts": {}
+      },
+      "function": {
+        "textractapi": {}
+      }
+    }
   }
 }
